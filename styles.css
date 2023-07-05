@@ -1,0 +1,40 @@
+html {
+    min-height: 100vh; /* Set the minimum height to 100% of the viewport height */
+  }
+  
+  
+:root {
+    --small-section-height: 10vh;
+    --medium-section-height:20vh;
+    --large-section-height: 60vh;
+    --bg-prime: white ;
+    --bg-secondary: #A0BFE0;
+    --bg-teriary: #C5DFF8;
+}
+.section {
+    height: var(--large-section-height);
+}
+.header {
+    height: var(--small-section-height);
+    background-color: var(--bg-prime);
+}
+.main {
+    background-color: var(--bg-teriary);
+}
+.sites {
+    background-color: var(--bg-prime);
+}
+.code {
+    background-color: var(--bg-teriary);
+}
+.about {
+}
+.contact { 
+    background-color: var(--bg-teriary);
+    height: var(--medium-section-height);
+}
+.align-center {
+    align-items: center;
+    justify-content: center;
+  }
+  
